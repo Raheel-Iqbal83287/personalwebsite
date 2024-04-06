@@ -5,7 +5,7 @@ export default function Home() {
     <div className="container min-h-screen grid grid-cols-[22rem,1fr] border-">
 
     <div className="sidebar items-center justify text-center text-wrap bg-black">
-      <img src="/PHOTO.JPG" width={150} height={150} className="icon rounded-full mx-auto flex mt-2" />
+      <img src="/PHOTO.png" width={150} height={150} className="icon rounded-full mx-auto flex mt-2" />
 
       <ul className="">
       <h1 className="text-3xl font-bold text-yellow-200 pt-4">Raheel Iqbal</h1>  
