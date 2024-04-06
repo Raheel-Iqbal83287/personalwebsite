@@ -18,17 +18,14 @@ export default function Home() {
 
       <p className="text-white pt-6">CONTACT ME</p>
       </ul>
-
-      <a className="icon flex justify-center items-center" href="#">
-        <i className="fa fa-twitter"></i>
-      </a>
+      
     </div>
 
     <div className="main items-center">
       <h1 className="text-2xl px-16 pt-8">ABOUT ME</h1>
       <p  className="text-justify pt-8 px-16">As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in human resource management. I am able to tacke complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.</p>
 
-      <p className="text-justify pt-6 px-16">When I'm not working, I love hiking, reading, and spending time with my friends and family, I believe that my determination can-do attitude, and hard work make me a true asset to any team</p>
+      <p className="text-justify pt-6 px-16">When I am not working, I love hiking, reading, and spending time with my friends and family, I believe that my determination can-do attitude, and hard work make me a true asset to any team</p>
 
       <div className="flex flex-row pt-8 px-16">
         <p className="basis-2/4 border bg-yellow-200 p-3">SOFT SKILLS</p>
