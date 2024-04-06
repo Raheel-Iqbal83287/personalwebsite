@@ -1,113 +1,106 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="container min-h-screen grid grid-cols-[22rem,1fr] border-">
+
+    <div className="sidebar items-center justify text-center text-wrap bg-black">
+      <img src="/PHOTO.JPG" width={150} height={150} className="icon rounded-full mx-auto flex mt-2" />
+
+      <ul className="">
+      <h1 className="text-3xl font-bold text-yellow-200 pt-4">Raheel Iqbal</h1>  
+
+      <p className="text-white pt-6">Human Resource Professional</p>
+
+      <p className="text-white pt-6">Master of Business Administration, KASB Institue of Technology Karachi (2009-2011)</p>
+      
+      <p className=" text-white pt-3">Master of Science (Human Resource Management), ILMA University Karachi (2018-2020)</p>
+
+      <p className="text-white pt-6">CONTACT ME</p>
+      </ul>
+
+      <a className="icon flex justify-center items-center" href="#">
+        <i className="fa fa-twitter"></i>
+      </a>
+    </div>
+
+    <div className="main items-center">
+      <h1 className="text-2xl px-16 pt-8">ABOUT ME</h1>
+      <p  className="text-justify pt-8 px-16">As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in human resource management. I am able to tacke complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.</p>
+
+      <p className="text-justify pt-6 px-16">When I'm not working, I love hiking, reading, and spending time with my friends and family, I believe that my determination can-do attitude, and hard work make me a true asset to any team</p>
+
+      <div className="flex flex-row pt-8 px-16">
+        <p className="basis-2/4 border bg-yellow-200 p-3">SOFT SKILLS</p>
+        <p className="basis-2/4 border text-right bg-slate-100 p-3">HARD SKILLS</p>
+      </div>
+
+      <div className="px-16 pt-4">
+        
+        <div className="flex flex-row">
+        <p className="border rounded-md bg-cyan-200 p-2">Active Listening</p>
+        <p className="border rounded-md bg-cyan-200 p-2 mx-2">Effective Communication</p>
         </div>
+
+        <div className="flex flex-row mt-2">
+        <p className="border rounded-md bg-cyan-200 p-2">Collaboration</p>
+        <p className="border rounded-md bg-cyan-200 p-2 mx-2">Teamwork</p>
+        </div>
+
+        <div className="flex flex-row mt-2">
+        <p className="border rounded-md bg-cyan-200 p-2">Creative Problem Solving</p>
+        <p className="border rounded-md bg-cyan-200 p-2 mx-2">Time management</p>
+        </div>
+
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="flex flex-col px-16 pt-8">
+        <p>PROFESSIONAL EXPERIENCE</p>
+
+        <p className="border p-4 mt-4 bg-gray-100  shadow drop-shadow-2xl shadow-green-300">
+          Assistant Manager, Trading Corporation of Pakistan (Pvt.) Ltd. (2005-Present)
+        </p>
+
+        <p className="border p-4 mt-4 bg-gray-100">
+          Human Resource Division (2018-Present)
+
+          <p className="mt-2">
+            Court Cases, Legal Cases, Academic Record.
+          </p>
+
+        </p>
+
+        <p className="border p-4 mt-4 bg-gray-100">
+          Information Technology Cell (2016-2018)
+
+          <p className="mt-2">
+            Preparation of Payroll.
+          </p>
+
+        </p>
+
+        <p className="border p-4 mt-4 bg-gray-100">
+          Human Resource Division (2011-2016)
+
+          <p className="mt-2">
+            Disciplinary cases, Court Cases, Legal Cases, Academic Record.
+          </p>
+
+        </p>
+
+        <p className="border p-4 mt-4 mb-8 bg-gray-100">
+          Finance Division (2005-2011)
+
+          <p className="mt-2">
+            Commodity operation, billing to provincial governments, and other distributors. 
+          </p>
+
+        </p>
+
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+    </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
